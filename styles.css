@@ -1,0 +1,63 @@
+.friend-request-container {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 350px;
+    margin: 150px auto;
+}
+
+/* Profile image */
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 30px auto 10px;
+}
+
+/* Friend name */
+h1 {
+    font-size: 24px;
+    margin: 40px auto;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+/* Button styles */
+#frnd {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.friend-button:hover {
+    background-color: #1665d8;
+}
+
+/* Red button */
+#remofrnd {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+h3{
+    text-align: center;
+    font-size: 19px;
+}
